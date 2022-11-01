@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv = "X-UA-Compatible" content="IE=edge">
+        <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+        <title>Mbebo's Portfolio Website</title>
+        <link rel="stylesheet" href = "style.css">
+    </head>
+    <body>     
+        <div class = "back">
+            <div class="container">
+            <nav>
+                <img src="logoM.png" class ="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            </div>
+            <div id="head">
+                <div id="image"> </div>
+                <div id="h-text">
+                    <h1> Hi, I'm <span>Mbebo Nonna</span> <br><span2>Welcome to my Website</span2></h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="portrait.JPG" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p> I'm a tech geek, cosmic lover, programmer and highly motivated
+                            student. I love learning new things and enjoy working on challenging coding projects.
+                            I'm passionate about solving problems with computer science, particularly with AI and Machine Learning.
+                            Feel free to check out my projects and share your comments. Visit the contact page and let's connect on 
+                            social media, phone or email.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!---------------projects------------------>
+        <div id="projects">
+            <div class = "container">
+                <h2 class="sub-title">My Projects</h1>
+                <div class = "project-list">
+                    <div>
+                        <h2>EyesTrainer Project</h2>
+                        <h4>Languages: C/C++</h4>
+                        <p>This is a project developed with the M5Stack Core 2 device in the Arduino IDE
+                            to help reduce computer vision syndrome. It has two main modules: The 20-20-20 rule and 
+                            the ideal distance from a computer screen which makes use of a laser sensor<br><br></p>
+                            <iframe width="500" height="500"
+                            src="https://www.youtube.com/embed/AaK8BRUnX6I?autoplay=1&mute=1&loop=1">
+                            </iframe><br>
+                        <a href="https://github.com/a1m2n/EyesTrainer_Project">github page</a>
+                    </div>
+                    <div>
+                        <h2>Human Robot Interaction Project</h2>
+                        <h4>Languages: C/C++</h4>
+                        <p>In this project developed with an arduino uno kit in the Arduino IDE, I attempted
+                            to give emotions to a robot I made. I experimented with how to convey emotions through
+                            movement, sound and light. I asked a third-person to guess the emotions after sometime.
+                            I discoovered that some basic emotions such as angry, sad, friendly and happy where easy to 
+                            convey with movement, sound and light.<br><br>
+                        </p>
+                        <img src="robot.jpg" width="500px" height="700px"><br>
+                        <a href= "https://github.com/a1m2n/Human-Robot-Interaction">github page</a>
+                    </div>
+                    <div>
+                        <h2>UnderWater Game</h2>
+                        <h4>Languages: Python, Kivy</h4>
+                        <p>This project is a simple game developed in the kivy module of python. I made the game
+                            after learning how to code with kivy on youTube. In the game you have to control a sprite using 
+                            WASD as you move along a specified track - similar to an endless runner game but much simplified. 
+                            The game ends when you miss a track. Think of the piano tiles game
+                            but instead of music you controlling a sprite on a continuous flow of tiles and earning points.<br><br>
+                        </p>
+                        <a href="https://github.com/a1m2n/Underwater_project">github page</a>
+                    </div>
+                    <div>
+                        <h2>Scuba Diver Game </h2>
+                        <h4>Languages: JavaScript, p5js</h4>
+                        <p>This is a game I made in p5js where you control a diving sprite underwater to collect coins while avoiding 
+                            sea monsters. The level of difficulty increases as you increase in levels.<br><br>
+                            Click to play the game right here in your browser!
+                        </p>
+                        <iframe src="https://editor.p5js.org/Mbebo/full/WPPIE0hed" width= "1050px" height="570px"></iframe><br>
+                        <a href="https://editor.p5js.org/Mbebo/sketches/WPPIE0hed">p5js sketch</a>
+                    </div>
+                    <div>
+                        <h2>Data Visualization: Mapping Covid19 Data </h2>
+                        <h4>Languages: JavaScript, p5js</h4>
+                        <p>In this project, I obtained open source data about the spread of Covid19 since 2020 John Hopkins University 
+                            Center for System Science and Engineering. Using mapbox API, I decided to visulaize the spread of covid19 in p5js.
+                            I used Web Mercator to convert each country's longitude and latitude positions into x and y coordinates.
+                            I tried this project after learning about creative coding in p5js from Daniel Shiffman on YouTube.<br><br>
+                        </p>
+                        <iframe src="https://editor.p5js.org/Mbebo/full/r3LuWxJ5c" width= "1050px" height="570px"></iframe><br>
+                        <a href="https://editor.p5js.org/Mbebo/sketches/r3LuWxJ5c">p5js sketch</a>
+                    </div>
+                    <div>
+                        <h2>Generative Art: Spiral Pattern </h2>
+                        <h4>Languages: JavaScript, p5js</h4>
+                        <p>I was inspired by Daniel Shiffman on YouTube to make a generative art using loops and randomization.
+                            I made this sketch in p5js and it is looping spiral pattern which changes colors when you move the mouse pointer.
+                            <br><br>
+                        </p>
+                        <iframe src="https://editor.p5js.org/Mbebo/full/TQC5JKVBH" width= "800px" height="800px"></iframe><br>
+                        <a href="https://editor.p5js.org/Mbebo/sketches/TQC5JKVBH">p5js sketch</a>                    
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class=""sub-title>Contact Me</h1>
+                        <p>alphanonna@gmail.com</p>
+                        <p>+233202388581</p>
+                    </div>
+                    <div class ="contact-right">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
